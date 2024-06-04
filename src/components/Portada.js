@@ -1,6 +1,5 @@
 import React from 'react'
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 
@@ -27,11 +26,6 @@ import sql from '../resources/sql.png'
 library.add(faPhone);
 
 const Portada = () => {
-  const numeroTel = '+34608825094';
-
-  const llamar = () => {
-    window.location.href = `tel:${numeroTel}`;
-  };
   return (
     <div id="portada">
       <div className="contenedor_portada">
