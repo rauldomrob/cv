@@ -922,7 +922,7 @@ nav .web a {
 
 .fa-linkedin,
 .fa-github,
-.fa-envelope,
+.logo_correo .fa-envelope,
 .logo_tel .fa-phone {
   color: var(--letras-header);
   height: 100%;
@@ -939,11 +939,11 @@ nav .web a {
 .logo_tel .fa-phone:hover,
 .fa-linkedin:hover,
 .fa-github:hover,
-.fa-envelope:hover,
+.logo_correo .fa-envelope:hover,
 .logo_tel .fa-phone:active,
 .fa-linkedin:active,
 .fa-github:active,
-.fa-envelope:active {
+.logo_correo .fa-envelope:active {
   color: white;
   filter: opacity(1) brightness(1.1);
   transform: translateX(-1px) translateY(-1px);
@@ -1609,11 +1609,11 @@ nav .web a {
   .logo_tel .fa-phone:hover,
   .fa-linkedin:hover,
   .fa-github:hover,
-  .fa-envelope:hover,
+  .logo_correo .fa-envelope:hover,
   .logo_tel .fa-phone:active,
   .fa-linkedin:active,
   .fa-github:active,
-  .fa-envelope:active {
+  .logo_correo .fa-envelope:active {
     height: 33px;
     width: 33px;
   }

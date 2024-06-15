@@ -43,10 +43,6 @@ const Portada = () => {
             </div>
           </div>
         </h2>
-        {/* <div className="num" onClick={llamar}>
-          <div className='tel'><FontAwesomeIcon icon="fa-solid fa-phone" /></div>
-          <div className='num_tel'><h3>+34 608 82 50 94</h3></div>
-        </div> */}
         <div className='descargar_cv'>
           <a href="/cv_raul_dominguez_robles.pdf" download className="descargar">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
@@ -72,7 +68,6 @@ const Portada = () => {
             <img src={java} alt="java"></img>
             <img src={firebase} alt="firebase" className='especial'></img>
             <img src={supa} alt="supa"></img>
-            {/* <img src={mongo} alt="mongo" className='especial'></img> */}
             <img src={net} alt="net"></img>
             <img src={cordova} alt="js" className='especial'></img>
             <img src={vb} alt="vb" className='especial'></img>
