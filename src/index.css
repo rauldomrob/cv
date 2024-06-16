@@ -205,14 +205,14 @@ nav .web a {
   justify-content: space-between;
 }
 
-.descargar_cv{
+.descargar_cv {
   display: flex;
   width: 100%;
   justify-content: center;
   margin: 30px 0 20px;
 }
 
-.descargar svg{
+.descargar svg {
   cursor: pointer;
   stroke: var(--letras-header);
   transition: stroke 0.4s;
@@ -237,12 +237,14 @@ nav .web a {
   width: fit-content;
 }
 
-.descargar:hover, .descargar:active {
+.descargar:hover,
+.descargar:active {
   background-color: #444444a5;
   border-color: #ccc;
 }
 
-.descargar:hover svg, .descargar:active svg {
+.descargar:hover svg,
+.descargar:active svg {
   fill: white;
 }
 
@@ -432,6 +434,40 @@ nav .web a {
   text-decoration: none;
   color: #c7c7c7;
   stroke: var(--letras-header);
+  transition: color 0.3s ease-in, background-color 0.3s ease-in, border 0.3s ease-in, stroke 0.3s ease-in;
+}
+
+.botones_proyecto a:hover,
+.botones_proyecto a:active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  text-align: center;
+  width: 100px;
+  padding: 8px 0;
+  border-radius: 12px;
+  background-color: #383839;
+  font-size: 14px;
+  cursor: pointer;
+  border: 0.5px solid #848383;
+  text-decoration: none;
+  color: #e9e9e9;
+  stroke: #edeaea;
+}
+
+.botones_proyecto a svg,
+.botones_proyecto a .fa-github {
+  transition: color 0.3s ease-in, stroke 0.3s ease-in, filter 0.3s ease-in;
+}
+
+.botones_proyecto a:hover svg,
+.botones_proyecto a:active svg,
+.botones_proyecto a:hover .fa-github,
+.botones_proyecto a:active .fa-github {
+  stroke: #ffffff;
+  color: white;
+  filter: opacity(1) brightness(1.1);
 }
 
 .boton_margen {
@@ -598,7 +634,7 @@ nav .web a {
   width: 520px;
 }
 
-.descripcion{
+.descripcion {
   height: fit-content;
 }
 
@@ -680,6 +716,11 @@ nav .web a {
   cursor: pointer;
 }
 
+.titu:hover,
+.titu:active {
+  cursor: default;
+}
+
 .skill:hover,
 .skill:active {
   cursor: default;
@@ -713,7 +754,7 @@ nav .web a {
   margin: 35px 0 20px;
 }
 
-.titulo_tecnologias{
+.titulo_tecnologias {
   margin-top: 20px;
 }
 
@@ -733,7 +774,7 @@ nav .web a {
   margin-right: 20px;
 }
 
-.skill.tecnologia{
+.skill.tecnologia {
   padding: 15px 20px;
   width: 250px;
   display: flex;
@@ -938,11 +979,11 @@ nav .web a {
 
 .logo_tel .fa-phone:hover,
 .fa-linkedin:hover,
-.fa-github:hover,
+.logo_github .fa-github:hover,
 .logo_correo .fa-envelope:hover,
 .logo_tel .fa-phone:active,
 .fa-linkedin:active,
-.fa-github:active,
+.logo_github .fa-github:active,
 .logo_correo .fa-envelope:active {
   color: white;
   filter: opacity(1) brightness(1.1);
@@ -956,6 +997,18 @@ nav .web a {
   cursor: pointer;
   height: 33px;
   width: 33px;
+}
+
+.icon-tabler-external-link {
+  transition: filter 0.3s ease-in, color 0.3s ease-in;
+}
+
+.fa-github:hover,
+.fa-github:active,
+.icon-tabler-external-link:hover,
+.icon-tabler-external-link:active {
+  color: white;
+  filter: opacity(1) brightness(1.1);
 }
 
 @media(max-width: 1200px) {
@@ -1349,11 +1402,11 @@ nav .web a {
     flex-direction: column;
   }
 
-  .fila_tecnologias{
+  .fila_tecnologias {
     align-items: center;
   }
 
-  .fila_tecnologias .skill.tecnologia{
+  .fila_tecnologias .skill.tecnologia {
     margin-right: 0;
     width: 100%;
   }
@@ -1608,11 +1661,11 @@ nav .web a {
 
   .logo_tel .fa-phone:hover,
   .fa-linkedin:hover,
-  .fa-github:hover,
+  .logo_github .fa-github:hover,
   .logo_correo .fa-envelope:hover,
   .logo_tel .fa-phone:active,
   .fa-linkedin:active,
-  .fa-github:active,
+  .logo_github .fa-github:active,
   .logo_correo .fa-envelope:active {
     height: 33px;
     width: 33px;

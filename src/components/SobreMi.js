@@ -33,9 +33,6 @@ function SobreMi() {
                             <div className="graduado">
                                 Graduado en IES Melchor Gaspar de Jovellanos
                             </div>
-                            <div className="fecha_graduado">
-
-                            </div>
                         </div>
                     </div>
                 </div>
