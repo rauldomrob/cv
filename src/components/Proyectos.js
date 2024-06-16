@@ -232,7 +232,7 @@ function Proyectos() {
                                 <h2>Gestor Universidad</h2>
                             </div>
                             <div className='parrafo_proyecto parrafo1'>
-                                Este gestor de la Universidad de los Scrum Masters permite la administración de alumnos, profesores, cursos y departamentos.
+                                Este gestor de Universidad permite la administración de alumnos, profesores, cursos y departamentos.
                             </div>
                             <div className='parrafo_proyecto parrafo2'>
                                 Con este gestor, es posible manejar inscripciones, asignaciones de cursos y la estructura de los departamentos y cursos, optimizando el funcionamiento diario de la universidad.
