@@ -8,8 +8,32 @@ import Proyectos from './components/Proyectos';
 import Skills from './components/Skills';
 import SobreMi from './components/SobreMi';
 import Tecnologias from './components/Tecnologias';
+import { useEffect } from 'react';
+import supabase from './supabase';
 
 function App() {
+  useEffect(() => {
+    const getIpAndSave = async () => {
+      try {
+        const response = await fetch('https://my-worker.rauldr718.workers.dev');
+        const data = await response.json();
+        const { ip } = data;
+
+        // Guardar la IP en Supabase
+        const { error } = await supabase
+          .from('ips')
+          .insert([{ ip }]);
+
+        if (error) {
+          console.error('Error saving IP:', error);
+        }
+      } catch (error) {
+        console.error('Error fetching IP:', error);
+      }
+    };
+
+    getIpAndSave();
+  }, []);
   return (
     <div className="App">
       <Header></Header>
@@ -24,5 +48,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
