@@ -19,16 +19,12 @@ function App() {
         const data = await response.json();
         const { ip } = data;
 
-        // Guardar la IP en Supabase
         const { error } = await supabase
           .from('ips')
           .insert([{ ip }]);
-
         if (error) {
-          console.error('Error saving IP:', error);
         }
       } catch (error) {
-        console.error('Error fetching IP:', error);
       }
     };
 
