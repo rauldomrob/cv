@@ -68,19 +68,19 @@ function Tecnologias() {
                         </div>
                         <div className="skill tecnologia">
                             <div className="titulo_skill">
-                                FireBase
+                                Spring Boot
                             </div>
                         </div>
                     </div>
                     <div className='segunda_fila_skills fila_tecnologias'>
                         <div className="skill tecnologia">
                             <div className="titulo_skill">
-                                .Net
+                                FireBase
                             </div>
                         </div>
                         <div className="skill tecnologia">
                             <div className="titulo_skill">
-                                MySQL
+                                .Net
                             </div>
                         </div>
                     </div>
@@ -89,24 +89,24 @@ function Tecnologias() {
                     <div className='primera_fila_skills fila_tecnologias'>
                         <div className="skill tecnologia">
                             <div className="titulo_skill">
-                                C#
+                                MySQL
                             </div>
                         </div>
                         <div className="skill tecnologia">
                             <div className="titulo_skill">
-                                Visual Basic
+                                C#
                             </div>
                         </div>
                     </div>
                     <div className='segunda_fila_skills fila_tecnologias'>
                         <div className="skill tecnologia">
                             <div className="titulo_skill">
-                                Git & GitHub
+                                Visual Basic
                             </div>
                         </div>
                         <div className="skill tecnologia">
                             <div className="titulo_skill">
-                                Cordova
+                                Git & GitHub
                             </div>
                         </div>
                     </div>
