@@ -328,7 +328,7 @@ nav .web a {
 
 .fila1 img:hover,
 .fila2 img:hover {
-  cursor: pointer;
+  cursor: default;
   filter: opacity(1);
   filter: brightness(1.1);
 }

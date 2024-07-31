@@ -19,7 +19,8 @@ import node from '../resources/node.png'
 import php from '../resources/php.png'
 import net from '../resources/net.png'
 import vb from '../resources/vb.png'
-import cordova from '../resources/cordova.png'
+import spring from '../resources/spring.png'
+//import cordova from '../resources/cordova.png'
 import sql from '../resources/sql.png'
 // import mongo from '../resources/mongodb.ico'
 
@@ -66,10 +67,10 @@ const Portada = () => {
             <img src={php} alt="php"></img>
             <img src={node} alt="node" className='especial'></img>
             <img src={java} alt="java"></img>
+            <img src={spring} alt="js"></img>
             <img src={firebase} alt="firebase" className='especial'></img>
             <img src={supa} alt="supa"></img>
             <img src={net} alt="net"></img>
-            <img src={cordova} alt="js" className='especial'></img>
             <img src={vb} alt="vb" className='especial'></img>
             <img src={sql} alt="sql" className='especial'></img>
           </div>
