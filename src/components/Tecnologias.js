@@ -11,6 +11,32 @@ function Tecnologias() {
                     <div className='primera_fila_skills fila_tecnologias'>
                         <div className="skill tecnologia">
                             <div className="titulo_skill">
+                                C# .Net
+                            </div>
+                        </div>
+                        <div className="skill tecnologia">
+                            <div className="titulo_skill">
+                                Visual Basic .Net
+                            </div>
+                        </div>
+                    </div>
+                    <div className='segunda_fila_skills fila_tecnologias'>
+                        <div className="skill tecnologia">
+                            <div className="titulo_skill">
+                                Entity Framework
+                            </div>
+                        </div>
+                        <div className="skill tecnologia">
+                            <div className="titulo_skill">
+                                SQL Server
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="skills">
+                    <div className='primera_fila_skills fila_tecnologias'>
+                        <div className="skill tecnologia">
+                            <div className="titulo_skill">
                                 HTML
                             </div>
                         </div>
@@ -80,7 +106,7 @@ function Tecnologias() {
                         </div>
                         <div className="skill tecnologia">
                             <div className="titulo_skill">
-                                .Net
+                                Azure
                             </div>
                         </div>
                     </div>
@@ -94,14 +120,14 @@ function Tecnologias() {
                         </div>
                         <div className="skill tecnologia">
                             <div className="titulo_skill">
-                                C#
+                                Visual Studio
                             </div>
                         </div>
                     </div>
                     <div className='segunda_fila_skills fila_tecnologias'>
                         <div className="skill tecnologia">
                             <div className="titulo_skill">
-                                Visual Basic
+                                Visual Studio Code
                             </div>
                         </div>
                         <div className="skill tecnologia">

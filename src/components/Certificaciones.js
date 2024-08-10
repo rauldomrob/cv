@@ -18,7 +18,7 @@ function Certificaciones() {
                     </div>
                     <div className="certificacion">
                         <div className="titulo_certificacion">
-                            CSS - The Complete Guide 2023 (incl. Flexbox, Grid & Sass)
+                            CSS - The Complete Guide 2024 (incl. Flexbox, Grid & Sass)
                         </div>
                         <div className="certificado">
                             By Maximilian Schwarzmüller - 23h

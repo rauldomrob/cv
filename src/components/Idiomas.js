@@ -14,10 +14,10 @@ function Idiomas() {
                         </div>
                         <div className="nivel_idioma">
                             <div className="circulos_idiomas">
-                                <div className="circulo"></div><div className="circulo"></div><div className="circulo"></div><div className="circulo"></div><div className="circulo circulo_medio"><div className="medio_izq"></div><div className="medio_der"></div></div><div className="circulo circulo_vacio"></div>
+                                <div className="circulo"></div><div className="circulo"></div><div className="circulo"></div><div className="circulo"></div><div className="circulo"></div><div className="circulo circulo_vacio"></div>
                             </div>
-                            <div className="nivel">
-                                B2/C1
+                            <div className="nivel nivel_corto">
+                                C1
                             </div>
                         </div>
                     </div>
